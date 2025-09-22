@@ -13,7 +13,7 @@ import AttemptQuiz from "./AttemptQuiz";
 import MyResults from "./MyResults";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router>
+    <Router basename="/frontend">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/login" element={<App />} /> {/* reuse same app for login */}
