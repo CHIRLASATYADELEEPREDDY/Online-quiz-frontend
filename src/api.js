@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const USER_API_URL = "http://localhost:9096/api/users";
-const QUIZ_API_URL = "http://localhost:9096/api/quizzes";
+const USER_API_URL = "http://localhost:8085/quiz-builder-backend-0.0.1-SNAPSHOT/api/users";
+const QUIZ_API_URL = "http://localhost:8085/quiz-builder-backend-0.0.1-SNAPSHOT/api/quizzes";
 
 /* ---------------- USER APIs ---------------- */
 
