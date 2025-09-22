@@ -4,7 +4,7 @@ import jsPDF from "jspdf";
 import "jspdf-autotable";
 import "./MyResults.css";
 
-const API_BASE = "http://localhost:9096/api/quizzes";
+const API_BASE = "http://localhost:8085/quiz-builder-backend-0.0.1-SNAPSHOT/api/quizzes";
 
 export default function MyResults() {
   const [results, setResults] = useState([]);
